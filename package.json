@@ -1,0 +1,37 @@
+{
+  "name": "social-media-links",
+  "version": "1.0.0",
+  "description": "Generate social media sharing links on the client or server",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js test",
+    "pretest": "npm run lint",
+    "test": "mocha --compilers js:babel/register",
+    "test:watch": "npm test -- -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trevordmiller/social-media-links.git"
+  },
+  "keywords": [
+    "social",
+    "media",
+    "links",
+    "link",
+    "generator",
+    "urls",
+    "share",
+    "sharing"
+  ],
+  "author": "Trevor D. Miller <trevordmiller@icloud.com> (www.trevordmiller.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trevordmiller/social-media-links/issues"
+  },
+  "homepage": "https://github.com/trevordmiller/social-media-links#readme",
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  }
+}
