@@ -8,7 +8,7 @@ Generate social media sharing links on the client or server
 
 ## Install
 
-1. `$ npm install social-media-links --save`
+`$ npm install social-media-links --save`
 
 ---
 
