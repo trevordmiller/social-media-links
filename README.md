@@ -21,6 +21,7 @@ let socialData = {
     account: 'twitter',
     url: 'https://some-cool-url.com',
     title: 'This is a sweet title',
+    via: 'coolaccount44',
     hashtags: [
       'coolhashtag',
       'anothercoolhashtag'
@@ -28,7 +29,7 @@ let socialData = {
 };
 
 let twitterLink = socialMediaLinks.create(socialData);
-//=> {bar: 'foo'}
+//=> https://twitter.com/share?url=https://some-cool-url.com&text=This is a sweet title&via=coolaccount44&hashtags=coolhashtag,anothercoolhashtag
 ```
 
 ---
