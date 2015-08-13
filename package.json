@@ -1,6 +1,6 @@
 {
   "name": "social-media-links",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate social media sharing links on the client or server",
   "main": "index.js",
   "scripts": {
