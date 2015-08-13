@@ -1,5 +1,7 @@
 # social-media-links
 
+[![Build Status](https://travis-ci.org/trevordmiller/social-media-links.svg?branch=master)](https://travis-ci.org/trevordmiller/social-media-links)
+
 Generate social media sharing links on the client or server
 
 ---
