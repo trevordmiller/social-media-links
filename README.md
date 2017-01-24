@@ -14,7 +14,7 @@ Generate social media sharing links on the client or server
 
 ## Example
 
-```
+```js
 import socialMediaLinks from 'social-media-links';
 
 let socialData = {
